@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café Lala Land</title>
+
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- LINK ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!-- LINK FAVICON 😩 -->
+        <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+    <div class="container">
+
+        <!--------------- NAVBAR ----------------------->
+        <nav class="container navbar navbar-expand-lg fixed-top animate__animated animate__fadeIn">
+
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="navbar-brand text-white logo" href="#">Lala Land Café</a>
+
+                <!-- Btn menu hamburguesa -->
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <!-- Enlaces -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="nav navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contactanos">Contáctanos</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+            
+        </nav>
+        <!--------------- CIERRE NAVBAR ----------------------->
+
+
+        <!-- INICIO -->
+        <section id="#inicio" class="pt-3 mt-5">
+
+            <div class="row align-items-center ">
+
+                <div class="col-6">
+                    <h1 class="animate__animated animate__fadeIn animate__delay-1s">Sabores exquisitos en nuestro acogedor café</h1>
+                    
+                    <button type="button" class="btn mt-4 p-3 animate__animated animate__fadeIn animate__delay-1s">Reservar una mesa</button>
+                </div>
+
+                <div class="col-6">
+                    <img src="images/café-png.png" class="img-fluid wow animate__animated animate__bounceIn animate__delay-2s animate__slower"  alt="">
+                </div>
+            </div>
+            
+        </section>
+
+
+        <!---------------- PRODUCTOS ---------------->
+        <!-- Se está usando padding y margin para tener una separación y poder ver el efecto de WOW.js -->
+        <section id="productos" class="text-center  pt-5">
+
+            <h2 class="fs-1 mt-5">Productos</h2>
+
+            <div class="row">
+
+                <div class="card col m-3 p-3 position-relative" style="width: 18rem;">
+                    <img src="images/kekitos-cute.jpeg" class="card-img-top wow animate__animated animate__backInLeft animate__slow"  alt="...">
+                    <div class="card-body">
+                      <h5 class="text-lg text-md text-sm card-title">Bizcochos mora</h5>
+                      <p class="card-text">Deléitate con nuestro exquisito bizcocho con topping de mora, dulce y delicioso.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+                <div class="card col m-3 p-3" style="width: 18rem;">
+                    <img src="images/mini-pasteles-cute.jpeg" class=" card-img-top wow animate__animated animate__backInUp animate__slow" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bizcochos frambuesa</h5>
+                      <p class="card-text">Irresistible bizcocho con topping de frambuesa. Suavidad que combina con la frescura y acidez de estas.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+                <div class="card col m-3 p-3" style="width: 18rem;">
+                    <img src="images/tartas-cute.jpeg" class="card-img-top wow animate__animated animate__backInRight animate__slow" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tortas tupper</h5>
+                      <p class="card-text"> Cada bocado es una mezcla perfecta de suavidad y sabor, con la dulzura natural de las frutas.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="card col m-3 p-3" style="width: 18rem;">
+                    <img src="images/7-mini-pastelitos-cute.jpeg" class="card-img-top wow animate__animated animate__backInRight animate__slow" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cakes personalizados</h5>
+                      <p class="card-text">En Café Lala Land nuestros cakes son obras maestras diseñadas exclusivamente para ti.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+                <div class="card col m-3 p-4" style="width: 18rem;">
+                    <img src="images/torta-fres-jpg.webp" class="img-fluid  card-img-top wow animate__animated animate__bounceInUp animate__slow" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cake fresas</h5>
+                      <p class="card-text">Nuestro suave y esponjoso cake con el sabor de las fresas, creando una experiencia verdaderamente irresistible.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+                <div class="card col m-3 p-3" style="width: 18rem;">
+                    <img src="images/milhojas-frutas-cute.jpeg" class="card-img-top  wow animate__animated animate__bounceInLeft animate__slow" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Milhojas frutos del bosque</h5>
+                      <p class="card-text">Cada bocado es una experiencia de texturas y sabores que te transportará a un rincón encantado de la naturaleza.</p>
+                      <a href="#" class="btn btn-warning btn-bottom">Ordenar</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="nosotros" class="text-center  pt-5">
+
+            <div class="row align-items-center mt-5">
+
+                <div class="col-6">
+                    <img src="images/torta-2pisos-png.png" class="img-fluid wow animate__animated animate__rotateIn animate__delay-1s animate__slow"  alt="">
+                </div>
+
+                <div class="col-6 animate__animated animate__fadeIn animate__delay-1s">
+                    <h2 class="fs-1 mb-3">Sobre Nosotros</h2>
+                    <p>En <span>Lala Land Café</span>, nuestra historia se teje con la pasión por el café y la devoción a los postres exquisitos. Desde nuestros modestos comienzos hasta convertirnos en un oasis acogedor para los amantes del café, hemos perfeccionado la combinación de calidad, calidez y sabor.</p>
+
+                    <p>Somos más que un café; somos un destino para la tranquilidad y la inspiración, donde las risas, las conversaciones y la creatividad fluyen junto con el aroma del café recién molido. Únete a nosotros en esta travesía llena de sabor y descubre por qué <span>Lala Lan Café</span> es donde el café se encuentra con los sueños y los postres son el regalo perfecto para tu paladar. ¡Bienvenidos a nuestro mundo de delicias! </p>
+
+                    <!-- <button type="button" class="btn mt-4 p-3">Reservar una mesa</button> -->
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="testimonios" class="mt-5 pt-5">
+
+            <h2 class="fs-1 text-center mb-3 pt-5">Testimonio sobre nosotros</h2>
+            <p class="text-center">Testimonio de nuestros clientes satisfechos con nuestros productos. Estos testimonios reflejan el amor y la devoción que nuestra comunidad tiene por nuestros cafés aromáticos y postres tentadores. </p>
+
+            <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                  <div class="carusel-1 carousel-item active">
+
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top " alt="...">
+
+                                <div class="row  justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                </div>
+                                <div class="">
+                                  <p class="card-text text-center">"Esta cafetería ha elevado mi estándar para el café y los postres; simplemente son incomparables."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/428361/pexels-photo-428361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+
+                                <div class="row  justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <!-- <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div> -->
+
+                                </div>
+
+                                <div class="">
+                                  <p class="card-text text-center">"Nunca imaginé que el café y los postres pudieran hacerme tan feliz hasta que encontré este paraíso."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+
+                                <div class="row  justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                </div>
+
+                                <div class="">
+                                  <p class="card-text text-center">"Nunca imaginé que el café y los postres pudieran hacerme tan feliz hasta que encontré este paraíso."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="carusel-2 carousel-item active">
+
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top " alt="...">
+
+                                <div class="row justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                </div>
+                                <div class="">
+                                  <p class="card-text text-center">"Desde el primer sorbo de café hasta el último bocado de pastel, siempre me siento mimado aquí."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+
+                                <div class="row  justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <!-- <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div> -->
+
+                                </div>
+
+                                <div class="">
+                                  <p class="card-text text-center">"El café de esta cafetería me ha convertido en un adicto al café, ¡y no podría estar más feliz por ello!"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card p-3" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/3760602/pexels-photo-3760602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+
+                                <div class="row  justify-content-center align-items-center m-3">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                </div>
+
+                                <div class="">
+                                  <p class="card-text text-center">"Los postres son una tentación irresistible, y el café es la compañía perfecta para cada bocado."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contactanos" class=" mt-5 animate__animated animate__fadeIn animate__delay-1s">
+            <div class="container-contactanos row">
+
+                <div class="col contact-us ">
+
+                    <h2 class="pt-5 fs-1 text-white">Contáctanos</h2>
+
+                    <div class=" row mt-4 pt-4 col-7">
+                        <div class="col">
+                            <i class="fa-brands fa-facebook-f iconos"></i>
+                        </div>
+                        <div class="col">
+                            <i class="fa-brands fa-instagram iconos"></i>
+                        </div>
+                        <div class="col">
+                            <i class="fa-brands fa-tiktok iconos"></i>
+                        </div>    
+                        
+                    </div>
+                </div>
+
+                <div class="col m-3">
+                    <form class="shadow rounded-3 mt-5 p-4 bg-body"  action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dirección de correo</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+
+                        <div class="">
+                            <button type="submit" class="btn">Enviar</button>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+
+        <hr>
+
+    </div>
+
+    <footer class="container text-center p-4">
+        <a class=" fs-2 navbar-brand logo" href="#">Lala Land Café</a>
+        <p>Copyright &copy; 2023 Todos los derechos reservados - ISIL </p>
+    </footer>
+    
+    
+    <!-- LINK BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- LINK WOW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+  </body>
+</html>

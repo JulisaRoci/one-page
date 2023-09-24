@@ -1,0 +1,117 @@
+/* font-family: 'Croissant One', cursive;
+font-family: 'Mooli', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+background-color: #483D8B;
+color: #669933;
+color: #ffcc00;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Mooli', sans-serif;
+}
+
+.navbar{
+    background-color: #5542cc;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0;
+}
+
+li a:hover{
+    border-bottom: 1px solid #ffcc00;
+}
+
+.logo{
+    font-family: 'Croissant One', 'cursive';
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    color: #5bc5bd;
+}
+
+h2{
+    /* font-family: 'Croissant One', 'cursive'; */
+    font-family: 'Rubik', sans-serif;
+
+    color: #5542cc;
+}
+
+.btn{
+    background-color: #5542cc;
+    color: white;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: #ffcc00;
+}
+
+.card-title{    
+    color: #e45858;
+}
+
+span{
+    color: #5542cc;
+}
+
+.container-contactanos{
+    height: 200px;
+    background-color: #5542cc;
+}
+.iconos{
+    color: white;
+    cursor: pointer;
+}
+
+
+textarea{
+    height: 20%;
+    resize: none;
+    overflow: auto;
+}
+
+footer{
+    color: #5542cc;
+}
+
+.btn-bottom {
+    width: 90%;
+    
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#contactanos{
+    height: 400px;
+}
+
+.fa-star{
+    color: #ffcc00;
+}
+
+/* .carousel-control-prev, .carousel-control-next{
+    background-color: #5542cc;
+} */
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #5542cc;
+} */
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: #ffcc00;
+    background-color: #5542cc;
+}
+
+
+
